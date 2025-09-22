@@ -1,0 +1,17 @@
+using binary section 2:  "C:\Program Files\BIOVIA\TmoleX2023\TURBOMOLE\bin\winnt_smp\ridft.bat" 
+using binary section 1:  "C:\Program Files\BIOVIA\TmoleX2023\TURBOMOLE\bin\winnt_smp\statpt.exe" 
+using binary section 2:  "C:\Program Files\BIOVIA\TmoleX2023\TURBOMOLE\bin\winnt_smp\aoforce.bat" 
+using binary section 1:  "C:\Program Files\BIOVIA\TmoleX2023\TURBOMOLE\bin\winnt_smp\define.exe" 
+using binary section 2:  "C:\Program Files\BIOVIA\TmoleX2023\TURBOMOLE\bin\winnt_smp\rdgrad.bat" 
+OPTIMIZATION CYCLE 1
+OPTIMIZATION CYCLE 2
+OPTIMIZATION CYCLE 3
+OPTIMIZATION CYCLE 4
+OPTIMIZATION CYCLE 5
+OPTIMIZATION CYCLE 6
+OPTIMIZATION CYCLE 7
+--------------------------------------------------------------
+    END OF CALCULATION 
+
+     RESULT:  CONVERGENCE REACHED
+   --------------------------------------------------------------

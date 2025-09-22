@@ -1,0 +1,105 @@
+$lastdiag
+$rij
+$rundimensions
+   natoms=9
+   nbf(CAO)=96
+   nbf(AO)=93
+$energy    file=energy
+$scfdump
+$ricore    100000
+$drvopt
+cartesian  on
+   basis      off
+   global     off
+   hessian    on
+   dipole     on
+   nuclear polarizability
+$dipole from ridft
+  x    -0.69192776874543    y    -0.15687233616075    z     0.53199266731346    a.u.
+   | dipole | =    2.2540018696  debye
+$forceupdate
+ahlrichs numgeo=0  mingeo=3 maxgeo=4 modus=<g|dq> dynamic fail=0.3
+   threig=0.005  reseig=0.005  thrbig=3.0  scale=1.00  damping=0.0
+$dft
+ functional b-p
+ gridsize m3
+ radsize 3
+$subtitle
+GEO,DFT/RI,B-P,charge 0,C1,def-TZVP,GEO_OPT, cosmo
+$scfiterlimit    512
+$coord    file=coord
+$jbas    file=auxbasis
+$thime    5
+$scfconv    9
+$charge from ridft
+          0.000 (not to be modified here)
+$forceinit on
+   diag=default
+$scforbitalshift    automatic=.1
+$grad    file=gradient
+$cosmo_atoms
+#radii in Angstrom units
+o 8 \
+radius=1.72
+h 1-1,3,5-7,9 \
+radius=1.3
+c 2-2,4 \
+radius=2.0
+$interconversion    off
+   qconv=1.d-7
+   maxiter=25
+$optimize
+basis      off internal on
+ redundant on
+ cartesian off
+ global off
+$symmetry    c1
+$tmole
+$basis    file=basis
+$cosmo_out    file=E_H.cosmo
+$scfmo   file=mos
+$title    E_H
+$redundant    file=coord
+$cosmo
+ rsolv=1.3
+ refind=1.3
+ use_contcav
+$atoms
+o 8 \
+   jbas = o def-TZVP                     \
+   basis = o def-TZVP
+h 1,3,5-7,9 \
+   jbas = h def-TZVP                     \
+   basis = h def-TZVP
+c 2,4 \
+   jbas = c def-TZVP                     \
+   basis = c def-TZVP
+$marij
+$coordinateupdate
+dqmax=0.3
+   interpolate  on
+   statistics    5
+$scfdamp     start=0.700 step=0.050 min=0.100
+$operating system    unix
+$thize    0.10000000E-04
+$scfintunit
+unit=30       size=0        file=twoint
+$forceapprox    file=forceapprox
+$scfdiis
+$xctype GGA (not to be modified here)
+$last SCF energy change = -.16956392E-09
+$cartesianstep
+  total steps      5
+  forceupdate      on
+$redund_inp
+    metric -3
+$closed shells
+ a       1-13                                   ( 2 )
+$maxcor    500 MiB  per_core
+$last step     ridft
+$optinfo       file=optinfo
+$hessapprox   file=hessapprox
+$orbital_max_rnorm 0.15718591422993E-06
+$subenergy  Etot         E1                  Ej                Ex                 Ec                 En
+-155.1151714194    -370.4994551701     156.0254216937    -20.76049080410    -.9265883807866     81.04594124198
+$end
