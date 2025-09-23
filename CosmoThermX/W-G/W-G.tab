@@ -1,0 +1,16 @@
+
+ Property  job 1 : Activity coefficients ln(gamma) ;
+ Settings  job 1 : T= 298.15 K ; x(2)= 1.0000 ; 
+ Units     job 1 : Concentrations x : mole fraction ;
+ 
+  Nr Compound                      ln(gamma)
+   1 W                            0.06303092
+   2 G_H                          0.00000000
+
+ Property  job 2 : Activity coefficients ln(gamma) ;
+ Settings  job 2 : T= 310.00 K ; x(2)= 1.0000 ; 
+ Units     job 2 : Concentrations x : mole fraction ;
+ 
+  Nr Compound                      ln(gamma)
+   1 W                            0.09232943
+   2 G_H                          0.00000000

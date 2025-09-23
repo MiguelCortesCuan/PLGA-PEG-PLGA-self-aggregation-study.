@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Document   : DefaultInpx.xml
+    Created on : 8. September 2017, 10:25
+    Author     : COSMOthermX
+    Description:
+        Default structure of inpx file for normal use 
+    Optional parameter:
+      <globalArea>
+	<comment/>
+      </globalArea>
+      <compoundList parametrization="" conformer="">
+      	<conformer>
+            <conformerName></conformerName>
+            <conformerAltName/>
+            <compound>
+               <compoundAltName/>
+	       <filename></filename>
+	       <filepath></filepath>
+	       <compOptions/>
+	       <confOptions/>
+	       <compProperties/>
+	    </compound>
+	    <compOptions/>
+	    <confOptions/>
+	    <compProperties/>
+	</conformer>
+	<compound>
+            <compoundAltName/>
+	    <filename></filename>
+       	    <filepath></filepath>
+	    <compOptions/>
+	    <confOptions/>
+	    <compProperties/>
+	</compound>
+      </compoundList>
+    Single calcJob:
+      <jobList>
+	<calcJob>
+	    <jobString></jobString>
+	    <comment></comment>
+	</calcJob>
+     </jobList>
+-->
+<defaultCalcJobFile>
+    <globalArea>
+	<comment/>
+	<line0>ctd = BP_TZVP_C21_0111.ctd cdir = "C:\Program Files\COSMOlogic\COSMOthermX18\COSMOtherm\CTDATA-FILES\OLDPARAM" ldir = "C:\Program Files\COSMOlogic\COSMOthermX18\COSMOthermX\..\licensefiles"          &#13;
+</line0>
+	<line1>unit notempty wtln ehfile          &#13;
+</line1>
+	<line2/>
+    </globalArea>
+    <compoundList conformer="yes" parametrization="TZVP">
+    <fraction/>
+      <compound>
+         <compoundAltName/>
+         <filename>G_H.cosmo</filename>
+         <filepath>G:\My Drive\Work\Calculos\Alvaro\Simulaciones\Turbomole\G</filepath>
+         <compoundComment/>
+         <compOptions>
+            <contentIntern>0</contentIntern>
+            <useVap>1</useVap>
+         </compOptions>
+      </compound>
+      <compound>
+         <compoundAltName/>
+         <filename>L_H.cosmo</filename>
+         <filepath>G:\My Drive\Work\Calculos\Alvaro\Simulaciones\Turbomole\L</filepath>
+         <compoundComment/>
+         <compOptions>
+            <contentIntern>0</contentIntern>
+            <useVap>1</useVap>
+         </compOptions>
+      </compound>
+   </compoundList>
+    <specialCompoundList conformer="yes" parametrization="TZVP">
+    </specialCompoundList>
+    <jobList>
+    <calcJob>
+         <jobString>Gamma=2 tk=298.15</jobString>
+         <comment> # Automatic Activity Coefficient Calculation</comment>
+      </calcJob>
+      <calcJob>
+         <jobString>Gamma=2 tk=310.0</jobString>
+         <comment> # Automatic Activity Coefficient Calculation</comment>
+      </calcJob>
+   </jobList>
+</defaultCalcJobFile>

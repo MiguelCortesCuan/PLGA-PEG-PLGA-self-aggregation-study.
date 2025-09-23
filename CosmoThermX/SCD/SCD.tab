@@ -1,0 +1,11 @@
+
+ Property  job 1 : Liquid density and volume ;
+ Settings  job 1 : T= 310.00 K ; 
+ Units     job 1 : Energies in kcal/mol ; Area in A^2 ; Volume in A^3 ; Density in g/ml ;
+ General   job 1 : WARNING: QSPR parameters for liquid density calculation are valid at room temperature only - Please use the computed density data with caution ;
+ 
+  Nr Compound                      Density            Volume       Exp_Density        Exp_Volume       MolWeight              H_MF              H_HB      COSMO_Volume           Smom(2)         Smom(2)^2   NRing
+   1 E_H                        0.77949093       98.14103384                NA                NA        46.06867          1.139378         -4.982558       70.21585885       52.03596874     2707.74204246       0
+   2 G_H                        1.15237823       86.53462912                NA                NA        60.05221          1.841892         -5.791239       75.44233475       91.96194752     8456.99979225       0
+   3 L_H                        0.98808239      124.49653450                NA                NA        74.07888          2.103552         -0.950125       95.26797158       65.03232994     4229.20393681       0
+   4 W                          0.99291499       30.12908979                NA                NA        18.01532          0.304111         -6.189530       25.59743259       74.84939791     5602.43236780       0

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+   <projectTitle>LGEW</projectTitle>
+   <directory>G:\My Drive\Work\Calculos\Alvaro\Simulaciones\CosmoThermX\LGEW</directory>
+   <projectID>1</projectID>
+   <jobs>
+      <job formOfJob="job">
+         <directory>G:\My Drive\Work\Calculos\Alvaro\Simulaciones\CosmoThermX\LGEW\SCD</directory>
+         <jobFile_inpx>G:\My Drive\Work\Calculos\Alvaro\Simulaciones\CosmoThermX\LGEW\SCD\SCD.inpx</jobFile_inpx>
+         <jobFile_inp>G:\My Drive\Work\Calculos\Alvaro\Simulaciones\CosmoThermX\LGEW\SCD\SCD.inp</jobFile_inp>
+         <useInpFileType>both</useInpFileType>
+         <start>1758581001567</start>
+         <stop>1758581007904</stop>
+         <runError>false</runError>
+         <startRun>false</startRun>
+         <projectTitle>LGEW</projectTitle>
+         <killed>false</killed>
+         <copied>false</copied>
+         <noOfCPUs>1</noOfCPUs>
+         <jobID>1</jobID>
+      </job>
+      <job formOfJob="job">
+         <directory>G:\My Drive\Work\Calculos\Alvaro\Simulaciones\CosmoThermX\LGEW\CtJob_2</directory>
+         <jobFile_inpx>G:\My Drive\Work\Calculos\Alvaro\Simulaciones\CosmoThermX\LGEW\CtJob_2\CtJob_2.inpx</jobFile_inpx>
+         <jobFile_inp>G:\My Drive\Work\Calculos\Alvaro\Simulaciones\CosmoThermX\LGEW\CtJob_2\CtJob_2.inp</jobFile_inp>
+         <useInpFileType>both</useInpFileType>
+         <start>1758580159566</start>
+         <stop>1758580166228</stop>
+         <runError>false</runError>
+         <startRun>false</startRun>
+         <projectTitle>LGEW</projectTitle>
+         <killed>false</killed>
+         <copied>false</copied>
+         <noOfCPUs>1</noOfCPUs>
+         <jobID>2</jobID>
+      </job>
+   </jobs>
+</project>

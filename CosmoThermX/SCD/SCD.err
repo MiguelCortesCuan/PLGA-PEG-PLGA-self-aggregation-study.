@@ -1,0 +1,3 @@
+
+SCD.out:148:WARNING: QSPR parameters for liquid density calculation are valid at room temperature only!
+SCD.out:149:WARNING: Please use the computed density data with caution
